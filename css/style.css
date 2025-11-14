@@ -1,45 +1,42 @@
-/*Index*/
 #nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
-    background-color: aquamarine;
-    gap: 0.5rem
+    background-color: rgb(51, 139, 157);
 }
 
-#vav li{
+#nav li{
     margin: 5px;
     padding: 10px 15px;
 }
 
 #nav li:hover{
-    background-color: rgb(173, 221, 230);
+    background-color: aquamarine;
 }
 
 #nav a{
     text-decoration: none;
 }
 
-/* Modelo de caja */
+/*modelo de caja*/
 .padre{
-    background-color: chartreuse;
-    padding: 20px;
+    background-color: rgb(34, 152, 202);
+    padding: 5px;
 }
 .hijo{
-    background-color: aqua;
-    padding: 100px;
-    border: 10px solid blue;
-    margin: 30px;
+    background-color: rgb(160, 232, 235);
+    padding: 10px;
+    border: 5px solid rgb(126, 126, 126);
+    margin: 10px;
 }
-
-/* contenedor */
-.contenedor{
+/* componente */
+#contenedor{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: red;
-    gap: 1rem
+    background-color: rgb(105, 202, 226);
+    gap: 1rem;
 }
 .card{
     width: 200px;
@@ -50,10 +47,41 @@
 }
 .card img{
     width: 100%;
-    border-radius: 8px;
 }
-
 .card p{
     color: #fff;
+    background-color: blue;
+}
+
+/* Carrito */
+#carritoLista{
+    list-style: 10px;
+    padding: 10px;
+    margin: 5px;
+    border: 5px solid rebeccapurple;
+    background-color: rgb(78, 72, 72);
+    color: rgb(255, 255, 255);
+} 
+
+/*Concurrencia*/
+pre{
+    text-align: left;
     background-color: black;
+    padding: 1rem;
+    border-radius: 10%;
+    width: 80%;
+    color: white;
+}
+
+/*trycatch*/
+#bodytry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#mensaje{
+    font-weight: bold; 
+    color: red;
 }

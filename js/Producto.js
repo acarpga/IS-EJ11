@@ -25,4 +25,4 @@ productos.forEach((prod) => {
     `;
 
   contenedor.appendChild(card);
-});
+})
